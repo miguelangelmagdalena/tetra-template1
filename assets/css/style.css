@@ -599,7 +599,7 @@ img {
   margin-top: 50px;
 }
 #about-video-popup iframe {
-  background: url(../img/loader.gif) center center no-repeat;
+  background: url(../images/loader.gif) center center no-repeat;
   margin: 10% auto;
   width: 650px;
   height: 450px;
@@ -2602,8 +2602,7 @@ img {
     padding-top: 20px;
     letter-spacing: 0.5px;
 }
-
-.sidenav a {
+#header-sidebarr > div > ul {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -2667,6 +2666,130 @@ img {
   padding: 5px 10px;
 }
 
+/*==================
+ SIDEBAR LOGIN
+====================*/
+#header-sidebar-login > h1 > i {
+  color: #01bafd;
+}
+#sidenav-login h1{
+  color: #333;
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 20px;
+    letter-spacing: 0.5px;
+}
+#header-sidebar-login .mu-subscribe-form {
+  display: inline;
+  float: left;
+  margin-bottom: 20px;
+  width: 100%;
+}
+#header-sidebar-login > form input[type="email"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #000;
+  font-size: 15px;
+  height: 35px;
+  margin-bottom: 20px;
+  padding: 5px;
+  width: 100%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-right: 0;
+  width: 100%;
+}
+#header-sidebar-login > form .mu-subscribe-btn {
+  background-color: #01bafd;
+  color: #fff;
+  border: medium none;
+  border-radius: 4px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding: 5px 10px;
+}
+
+
+/* Form */
+#login > form{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 300px;
+  margin: 0 auto 100px;
+  padding: 30px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  text-align: center;
+}
+#login .thumbnail {
+  background: #EF3B3A;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 30px;
+  padding: 50px 30px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  box-sizing: border-box;
+}
+#login .thumbnail img {
+  display: block;
+  width: 100%;
+}
+#login input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+#login button {
+  outline: 0;
+  background: #01bafd;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #FFFFFF;
+  font-size: 14px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+#login .message {
+  margin: 15px 0 0;
+}
+#login .message a {
+  color: #01bafd;
+  text-decoration: none;
+}
+#login .register-form {
+  display: none;
+}
+.forgot-password{
+  float: left;
+}
+.ingresar{
+  margin-top: 1em;
+}
 /*==================
  OTHER
 ====================*/
