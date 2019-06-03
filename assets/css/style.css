@@ -357,7 +357,7 @@ img {
   height: 500px;
 }
 #mu-slider .mu-slider-single .mu-slider-img:after {
-  background-color: rgba(0, 0, 0, 0.5);
+  /*background-color: rgba(0, 0, 0, 0.5);*/
   content: '';
   position: absolute;
   left: 0;
@@ -423,7 +423,7 @@ img {
 #mu-service {
   display: inline;
   float: left;
-  margin-top: -80px;
+  /*margin-top: -80px;*/
   width: 100%;
 }
 #mu-service .mu-service-area {
@@ -460,6 +460,9 @@ img {
   font-weight: lighter;
 }
 
+#mu-service .mu-service-area .img-premisas {
+  width: 250px;
+}
 
 .icon {
   position: relative;
