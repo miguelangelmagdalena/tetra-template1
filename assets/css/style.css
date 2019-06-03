@@ -31,9 +31,42 @@
 */
 
 /* BASE - Base tyles, Variables, Mixins, etc. */
+@font-face {
+  font-family: BOOKOS;
+  src: url(../fonts/BOOKOS.TTF);
+}
+@font-face {
+  font-family: BOOKOSI;
+  src: url(../fonts/BOOKOSI.TTF);
+}
+@font-face {
+  font-family: BOOKOSB;
+  src: url(../fonts/BOOKOSB.TTF);
+}
+@font-face {
+  font-family: BOOKOSBI;
+  src: url(../fonts/BOOKOSBI.TTF);
+}
+@font-face {
+  font-family: CENSCBK;
+  src: url(../fonts/CENSCBK.TTF);
+}
+@font-face {
+  font-family: SCHLBKB;
+  src: url(../fonts/SCHLBKB.TTF);
+}
+@font-face {
+  font-family: SCHLBKBI;
+  src: url(../fonts/SCHLBKBI.TTF);
+}
+@font-face {
+  font-family: SCHLBKI;
+  src: url(../fonts/SCHLBKI.TTF);
+}
+
 body {
   background-color: #f8f8f8;
-  font-family: "Roboto", sans-serif;
+  font-family: BOOKOS;
   color: #333333;
   font-size: 16px;
   overflow-x: hidden;
@@ -66,7 +99,7 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: BOOKOS;
 }
 
 h2 {
@@ -180,8 +213,9 @@ img {
 }
 
 #btn-login{
-  background-color: #feaf00;
-  border: 0;
+  background-color: #CE9B30;
+  /*border: 0;*/
+  border: solid;
   padding: 2px 13px;
   line-height: 18px;
 }
@@ -193,7 +227,7 @@ img {
   float: left;
   width: 100%;
 }
-#mu-menu .navbar-header .navbar-brand {
+#mu-menu .navbar-header .navbar-brand, #header-sidebarr > a > img, #header-sidebar-login > a > img {
   color: #333;
   font-family: "Montserrat", sans-serif;
   font-size: 26px;
@@ -201,6 +235,9 @@ img {
   text-transform: uppercase;
   padding-top: 20px;
   letter-spacing: 0.5px;
+  height: 81px;
+  padding: 0px;
+  float: initial;
 }
 #mu-menu .navbar-header .navbar-brand i {
   font-size: 35px;
@@ -208,6 +245,10 @@ img {
 #mu-menu .navbar-header .navbar-brand span {
   margin-left: 4px;
 }
+#mu-menu .navbar-header .navbar-brand {
+  padding-top: 10px;
+}
+
 #mu-menu .navbar-default {
   background-color: #fff;
   border-radius: 0;
@@ -432,7 +473,7 @@ img {
   width: 100%;
 }
 #mu-service .mu-service-area .mu-service-single {
-  /*background-color: #01bafd;
+  /*background-color: #318AC2;
   color: #fff;*/
   background-color: #fff;
   color: #333;
@@ -563,9 +604,11 @@ img {
   display: block;
   width: 100%;
   position: relative;
+  text-align: center;
 }
 #mu-about-us .mu-about-us-area .mu-about-us-right a img {
-  width: 100%;
+  /*width: 100%;*/
+  width: 330px;
 }
 #mu-about-us .mu-about-us-area .mu-about-us-right a:after {
   background-color: rgba(0, 0, 0, 0.8);
@@ -2254,21 +2297,18 @@ img {
     padding: 10px 0;
   }
 
-  #mu-menu .navbar-header .navbar-brand {
-    padding-top: 10px;
-  }
-
+ 
   #mu-search-icon {
     display: none;
   }
 
   .navbar-toggle {
-    background-color: #01bafd;
+    background-color: #318AC2;
     border-radius: 0;
   }
 
   .navbar-default .navbar-toggle {
-    border-color: #01bafd;
+    border-color: #318AC2;
   }
 
   .navbar-default .navbar-toggle .icon-bar {
@@ -2276,7 +2316,7 @@ img {
   }
 
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #01bafd;
+    background-color: #318AC2;
   }
 
   #mu-menu .navbar-default .navbar-nav li > a {
@@ -2594,7 +2634,7 @@ img {
   text-align: right;
 }
 #header-sidebarr > h1 > i {
-  color: #01bafd;
+  color: #318AC2;
 }
 #mySidenav h1{
   color: #333;
@@ -2615,7 +2655,7 @@ img {
 }
 
 .sidenav a:hover {
-  color: #01bafd;
+  color: #318AC2;
 }
 
 .sidenav .closebtn {
@@ -2660,7 +2700,7 @@ img {
   width: 100%;
 }
 #header-sidebarr > form .mu-subscribe-btn {
-  background-color: #01bafd;
+  background-color: #318AC2;
   color: #fff;
   border: medium none;
   border-radius: 4px;
@@ -2673,7 +2713,7 @@ img {
  SIDEBAR LOGIN
 ====================*/
 #header-sidebar-login > h1 > i {
-  color: #01bafd;
+  color: #318AC2;
 }
 #sidenav-login h1{
   color: #333;
@@ -2708,7 +2748,7 @@ img {
   width: 100%;
 }
 #header-sidebar-login > form .mu-subscribe-btn {
-  background-color: #01bafd;
+  background-color: #318AC2;
   color: #fff;
   border: medium none;
   border-radius: 4px;
@@ -2764,7 +2804,7 @@ img {
 }
 #login button {
   outline: 0;
-  background: #01bafd;
+  background: #318AC2;
   width: 100%;
   border: 0;
   padding: 15px;
@@ -2781,7 +2821,7 @@ img {
   margin: 15px 0 0;
 }
 #login .message a {
-  color: #01bafd;
+  color: #318AC2;
   text-decoration: none;
 }
 #login .register-form {
