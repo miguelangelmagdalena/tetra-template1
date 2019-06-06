@@ -19,7 +19,10 @@ Author URI : http://www.markups.io/
 }
 
 #mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav li a:hover, #mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav li a:focus {
-  color: #318AC2;
+  color: #CE9B30;
+}
+#mu-header .mu-top-social-nav li a:hover{
+  color: #CE9B30;
 }
 
 #mu-menu .navbar-header .navbar-brand i {

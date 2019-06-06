@@ -938,6 +938,7 @@ img {
   float: left;
   padding: 100px 0;
   width: 100%;
+  background-color: #406FC1;
 }
 #mu-our-teacher .mu-our-teacher-area {
   display: inline;
@@ -973,7 +974,9 @@ img {
   width: 100%;
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-our-teacher-img img {
-  width: 100%;
+  /*width: 100%;*/
+  width: 260px;
+  height: 265px;
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-our-teacher-img .mu-our-teacher-social {
   bottom: 0;
@@ -1023,9 +1026,10 @@ img {
   margin-bottom: 0;
   margin-top: 20px;
   text-transform: uppercase;
+  color: white;
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-ourteacher-single-content span {
-  color: #000;
+  color: white;
   display: block;
   font-size: 14px;
   margin-bottom: 8px;
@@ -1033,6 +1037,7 @@ img {
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-ourteacher-single-content p {
   font-size: 15px;
+  color: white;
 }
 
 /*==================
@@ -2887,4 +2892,13 @@ img {
 .navbar-default .navbar-nav > li > a {
   color: black;
 }
-
+#btn-cv{
+  background-color: #CE9B30;
+  height: 35px;
+  padding: 5px;
+  margin-top: 20px;
+  border: solid 1px;
+}
+#subscribe{
+  color: #406FC1; font-size:30px;cursor:pointer
+}
