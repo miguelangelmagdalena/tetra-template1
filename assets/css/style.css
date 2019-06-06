@@ -151,7 +151,7 @@ img {
  HEADER SECTION
 ====================*/
 #mu-header {
-  background-color: #f8f8f8;
+  background-color: #406FC1;
   display: inline;
   float: left;
   width: 100%;
@@ -496,9 +496,11 @@ img {
 }
 #mu-service .mu-service-area .mu-service-single h3 {
   font-size: 25px;
+  text-align: left;
 }
 #mu-service .mu-service-area .mu-service-single p {
   font-weight: lighter;
+  text-align: left;
 }
 
 #mu-service .mu-service-area .img-premisas {
@@ -568,6 +570,7 @@ img {
   float: left;
   width: 100%;
   padding: 100px 0;
+  background-color: #406FC1;
 }
 #mu-about-us .mu-about-us-area {
   display: inline;
@@ -651,7 +654,7 @@ img {
   height: 450px;
 }
 
-.mu-title {
+.mu-title, .mu-title2 {
   display: inline;
   float: left;
   text-align: center;
@@ -668,7 +671,20 @@ img {
   line-height: 1.7;
   padding: 0 120px;
 }
-
+.mu-title2 h2 {
+  color: white;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.mu-title2 p {
+  color: white;
+  letter-spacing: 0.3px;
+  line-height: 1.7;
+  padding: 0 120px;
+}
+.mu-about-us-left > p,  .mu-about-us-left > ul{
+  color: white;
+}
 /*==================
  ABOUT US COUNTER SECTION
 ====================*/
@@ -785,7 +801,7 @@ img {
  LATEST COURSES SECTION
 ====================*/
 #mu-latest-courses {
-  background-color: #000;
+  background-color: #406FC1;
   display: inline;
   float: left;
   padding: 100px 0;
@@ -803,10 +819,10 @@ img {
   color: #fff;
 }
 #mu-testimonial .mu-testimonial-area .mu-title h2 {
-  color: #fff;
+  /*color: #fff;*/
 }
 #mu-testimonial .mu-testimonial-area .mu-title p {
-  color: #fff;
+  /*color: #fff;*/
 }
 #mu-latest-courses .mu-latest-courses-area .mu-latest-courses-content {
   display: inline;
@@ -1023,20 +1039,21 @@ img {
  TESTIMONIAL SECTION
 ====================*/
 #mu-testimonial {
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   /*background-image: url("../img/testimonial-bg.jpg");*/
-  background-color: black;
-  background-position: center center;
-  background-size: cover;
+  
+  background-color: #f8f8f8;
+  /*background-position: center center;
+  background-size: cover;*/
   display: inline;
   float: left;
   padding: 100px 0;
   position: relative;
   width: 100%;
-  z-index: 10;
+  /*z-index: 10;*/
 }
 #mu-testimonial:after {
-  background-color: rgba(0, 0, 0, 0.8);
+  /*background-color: rgba(0, 0, 0, 0.8);*/
   content: '';
   position: absolute;
   left: 0;
@@ -1064,7 +1081,7 @@ img {
   outline: none;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote {
-  background-color: #333;
+  background-color: #406fc1;
   border-radius: 4px;
   display: inline;
   float: left;
@@ -1103,10 +1120,10 @@ img {
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-img img {
   background-color: #555;
   border: 1px solid #888;
-  border-radius: 50%;
+  /*border-radius: 50%;*/
   margin: -50px auto 5px;
   padding: 0;
-  width: 120px;
+  width: 200px;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-info {
   display: inline;
@@ -1115,7 +1132,7 @@ img {
   text-align: center;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-info h4 {
-  color: #fff;
+  /*color: #fff;*/
   font-size: 20px;
   margin-bottom: 0px;
 }
@@ -1124,7 +1141,7 @@ img {
   letter-spacing: 0.3px;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .slick-dots li {
-  background-color: #fff;
+  background-color: #406fc1;
   height: 8px;
   width: 20px;
 }
@@ -1927,6 +1944,28 @@ img {
 }
 
 /*==================
+ INVESTIGACION PAGE
+====================*/
+#mu-inv {
+  background-color: #406FC1;
+  display: inline;
+  float: left;
+  padding: 100px 0;
+  width: 100%;
+}
+#mu-inv .mu-inv-area {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#mu-inv .mu-inv-area .mu-inv-content {
+  display: inline;
+  float: left;
+  margin-top: 50px;
+  width: 100%;
+}
+
+/*==================
  CONTACT PAGE
 ====================*/
 #mu-contact {
@@ -2040,7 +2079,7 @@ img {
   width: 100%;
 }
 #mu-footer .mu-footer-top {
-  background-color: #333;
+  background-color: #406FC1;
   display: inline;
   float: left;
   padding: 50px 0;
@@ -2837,7 +2876,15 @@ img {
  OTHER
 ====================*/
 .color-white{
-  color:white;
+  color: white;
 }
-
+.color-blue{
+  color: #406FC1;
+}
+.hover-gold:hover{
+  color: #CE9B30;
+}
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
 
