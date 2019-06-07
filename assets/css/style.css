@@ -125,6 +125,11 @@ img {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+
+  border-color: #555;
+  color: #555;
+  font-size: 14px;
+  margin-top: 5px;
 }
 .mu-read-more-btn:hover, .mu-read-more-btn:focus {
   color: #fff;
@@ -292,16 +297,16 @@ img {
   bottom: 60px;
   color: #fff;
   display: none;
-  font-size: 30px;
+  font-size: 38px;
   line-height: 50px;
-  height: 50px;
+  height: 60px;
   font-family: "Montserrat", sans-serif;
-  padding: 5px 0;
+  padding: 8px;
   position: fixed;
-  right: 20px;
+  right: 0px;
   text-align: center;
   text-decoration: none;
-  width: 50px;
+  width: 60px;
   z-index: 999;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -1045,9 +1050,9 @@ img {
 ====================*/
 #mu-testimonial {
   /*background-attachment: fixed;*/
-  /*background-image: url("../img/testimonial-bg.jpg");*/
+  /*background-image: url("../images/testimonial-bg.jpg");*/
   
-  background-color: #f8f8f8;
+  background-color: #406fc1;
   /*background-position: center center;
   background-size: cover;*/
   display: inline;
@@ -1086,7 +1091,7 @@ img {
   outline: none;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote {
-  background-color: #406fc1;
+  background-color: #fff;
   border-radius: 4px;
   display: inline;
   float: left;
@@ -1109,7 +1114,7 @@ img {
   top: 0;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote blockquote p {
-  color: #fff;
+  color: black;
   font-size: 16px;
   font-style: italic;
   letter-spacing: 0.5px;
@@ -1191,26 +1196,26 @@ img {
 .mu-blog-single-item .mu-blog-single-img a img {
   width: 100%;
 }
-.mu-blog-single-item .mu-blog-single-img .mu-blog-caption {
+.mu-blog-caption {
   display: inline;
   float: left;
   width: 100%;
 }
-.mu-blog-single-item .mu-blog-single-img .mu-blog-caption h3 a {
+.mu-blog-caption h3 a {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-.mu-blog-single-item .mu-blog-meta {
+.mu-blog-meta {
   display: inline;
   float: left;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   width: 100%;
   margin-top: 5px;
 }
-.mu-blog-single-item .mu-blog-meta a {
+.mu-blog-meta a {
   display: inline-block;
   float: left;
   letter-spacing: 0.5px;
@@ -1221,30 +1226,30 @@ img {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-.mu-blog-single-item .mu-blog-meta span {
+.mu-blog-meta span {
   display: inline-block;
   float: left;
 }
-.mu-blog-single-item .mu-blog-meta span i {
+.mu-blog-meta span i {
   margin-right: 7px;
 }
-.mu-blog-single-item .mu-blog-description {
+.mu-blog-description {
   display: inline;
   float: left;
   width: 100%;
 }
-.mu-blog-single-item .mu-blog-description p {
+.mu-blog-description p {
   font-size: 15px;
   letter-spacing: 0.3px;
   line-height: 1.7;
 }
-.mu-blog-single-item .mu-blog-description a {
+.mu-blog-description a {
   border-color: #555;
   color: #555;
   font-size: 14px;
   margin-top: 15px;
 }
-.mu-blog-single-item .mu-blog-description a:hover, .mu-blog-single-item .mu-blog-description a:focus {
+.mu-blog-description a:hover, .mu-blog-description a:focus {
   color: #fff;
 }
 
@@ -1473,15 +1478,10 @@ img {
 .mu-related-item .mu-related-item-area .mu-blog-single-item {
   background-color: #FFF;
 }
-.mu-related-item .mu-related-item-area .mu-blog-single-item .mu-blog-caption {
-  padding: 0 15px;
+.mu-blog-caption {
+  padding: 0 5px;
 }
-.mu-related-item .mu-related-item-area .mu-blog-single-item .mu-blog-meta {
-  padding: 0 15px;
-}
-.mu-related-item .mu-related-item-area .mu-blog-single-item .mu-blog-description {
-  padding: 0 15px 20px;
-}
+
 .mu-related-item .mu-related-item-area #mu-related-item-slide .slick-prev,
 .mu-related-item .mu-related-item-area #mu-related-item-slide .slick-next {
   height: 50px;
@@ -1499,24 +1499,24 @@ img {
   background-color: #FFF;
   padding-bottom: 30px;
 }
-.mu-blog-single .mu-blog-single-item .mu-blog-caption {
-  padding: 0 15px;
+.mu-blog-caption {
+  padding: 0 5px;
 }
-.mu-blog-single .mu-blog-single-item .mu-blog-meta {
-  padding: 0 15px;
+.mu-blog-meta {
+  padding: 0 5px;
 }
-.mu-blog-single .mu-blog-single-item .mu-blog-description {
-  padding: 0 15px 30px;
+.mu-blog-description {
+  padding: 0 5px 5px;
 }
-.mu-blog-single .mu-blog-single-item .mu-blog-description ul {
+.mu-blog-description ul {
   padding-left: 20px;
 }
-.mu-blog-single .mu-blog-single-item .mu-blog-description ul li {
+.mu-blog-description ul li {
   line-height: 1.8;
   padding-left: 25px;
   position: relative;
 }
-.mu-blog-single .mu-blog-single-item .mu-blog-description ul li:before {
+.mu-blog-description ul li:before {
   content: '\f14a';
   font-family: fontAwesome;
   position: absolute;
@@ -2307,12 +2307,12 @@ img {
     margin-top: 30px;
   }
 
-  #mu-from-blog .mu-from-blog-area .mu-from-blog-content .mu-blog-single-item .mu-blog-meta a {
+  .mu-blog-meta a {
     letter-spacing: 0;
     margin-right: 5px;
   }
 
-  #mu-from-blog .mu-from-blog-area .mu-from-blog-content .mu-blog-single-item .mu-blog-single-img .mu-blog-caption h3 {
+.mu-blog-caption h3 {
     font-size: 20px;
   }
 
@@ -2566,21 +2566,21 @@ img {
     padding: 5px 12px;
   }
 
-  .mu-blog-single .mu-blog-single-item .mu-blog-description h1 {
+  .mu-blog-description h1 {
     font-size: 25px;
   }
 
-  .mu-blog-single .mu-blog-single-item .mu-blog-description h2 {
+  .mu-blog-description h2 {
     font-size: 22px;
     line-height: 30px;
   }
 
-  .mu-blog-single .mu-blog-single-item .mu-blog-description h3 {
+  .mu-blog-description h3 {
     font-size: 18px;
     line-height: 24px;
   }
 
-  .mu-blog-single .mu-blog-single-item .mu-blog-description h4 {
+  .mu-blog-description h4 {
     font-size: 16px;
     line-height: 20px;
   }
@@ -2877,6 +2877,67 @@ img {
 .ingresar{
   margin-top: 1em;
 }
+
+
+
+
+
+/*==================
+ Stiky Social Bar
+====================*
+
+ /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 30%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+  z-index: 999;
+
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 22px;
+  border-radius: 4px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #CE9B30;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+} 
 /*==================
  OTHER
 ====================*/

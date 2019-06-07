@@ -11,6 +11,9 @@
 
     <!-- Font awesome -->
     <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/fontawesome-5.9.0/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/fontawesome-5.9.0/css/brands.css" rel="stylesheet">
+    <link href="assets/fontawesome-5.9.0/css/solid.css" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">   
     <!-- Slick slider -->
@@ -23,77 +26,56 @@
     <!-- Main style sheet -->
     <link href="assets/css/style.css" rel="stylesheet">    
 
-    <!-- Google Fonts -->
+    <!-- Google Fonts 
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,700' rel='stylesheet' type='text/css'>-->
     
 
   </head>
   <body> 
 
+
+
  
 
-  <!--Sidebar saber más-->
-  <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <div id="header-sidebarr">
-          <a href="#"><img class="navbar-brand logo-header" src="images/logo_tetra_horizontal.jpg" alt="TETRA"></a>
-          
-          <p>Nos interesa mantenerte informado</p>
-
-          <p>¡Subscribete ahora!</p>
-
-          <form class="mu-subscribe-form">
-            <input type="email" placeholder="Escribe tu correo">
-            <button class="mu-subscribe-btn" type="submit">Enviar</button>
-          </form>  
-
-          <div>
-            <ul class="mu-top-social-nav">
-              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#"><span class="icon fa-instagram"></span></a></li>
-              <li><a href="#"><span class="fa fa-youtube"></span></a></li>
-            </ul>
-          </div>
-      </div>
-      
-  </div>
-  <!--Sidebar saber más-->
-
-  <!--Sidebar saber más-->
-  <div id="sidenav-login" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
-    <div id="header-sidebar-login">
-        
-      
+<!--Sidebar saber más-->
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div id="header-sidebarr">
         <a href="#"><img class="navbar-brand logo-header" src="images/logo_tetra_horizontal.jpg" alt="TETRA"></a>
+        
+        <p>Nos interesa mantenerte informado</p>
 
-        <div id="login" class="form">
-          <form class="register-form">
-            <input type="text" placeholder="Nombre"/>
-            <input type="text" placeholder="Apellido"/>
-            <input type="text" placeholder="Correo electrónico"/>
-            <input type="password" placeholder="Contraseña"/>
-            <input type="password" placeholder="Repita la contraseña"/>
-            <button class="form-btn ">Enviar</button>
-            <p class="message">¿Ya tienes cuenta? <a href="#">Ingresa</a></p>
-          </form>
-          <form class="login-form">
-            <input type="text" placeholder="Correo electrónico"/>
-            <input type="password" placeholder="Contraseña"/>
-            <a class="simple-btn forgot-password" href="/forgot_password/">¿Olvidaste tu contraseña?</a>
-            <button class="form-btn ingresar">Ingresar</button>
-            <p class="message">¿No tienes cuenta?<a href="#">Registrate</a></p>
-          </form>
+        <p>¡Subscribete ahora!</p>
+
+        <form class="mu-subscribe-form">
+          <input type="email" placeholder="Escribe tu correo">
+          <button class="mu-subscribe-btn" type="submit">Enviar</button>
+        </form>  
+
+        <div>
+          <ul class="mu-top-social-nav">
+            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#"><span class="icon fa-instagram"></span></a></li>
+            <li><a href="#"><span class="fa fa-youtube"></span></a></li>
+          </ul>
         </div>
-
     </div>
     
 </div>
 <!--Sidebar saber más-->
 
+
 <div id="main">
+
+  <!-- START The social media icon bar -->
+  <div class="icon-bar">
+    <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="google"><i class="fab fa-instagram"></i></a>
+  </div>
+  <!-- END The social media icon bar -->
 
    <!--START SCROLL TOP BUTTON -->
    <a class="scrollToTop" href="#">
@@ -108,34 +90,12 @@
         <div class="col-lg-12 col-md-12">
           <div class="mu-header-area">
             <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <div class="mu-header-top-left">
-                  <div class="mu-top-email">
-                    <i class="fa fa-envelope"></i>
-                    <span>info@tetra.academy</span>
-                  </div>
-                  <div class="mu-top-phone">
-                    <i class="fa fa-phone"></i>
-                    <span>(000) 000 000</span>
-                  </div>
-                  <div class="">
-                    <nav>
-                      <ul class="mu-top-social-nav">
-                        <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                        <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                        <li><a href="#"><span class="icon fa-instagram"></span></a></li>
-                        <li><a href="#"><span class="fa fa-youtube"></span></a></li>
-                      </ul>
-                    </nav>
-                  </div>
-                </div>
-              </div>
 
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="mu-header-top-right">
                   <div class="mu-top-email">
                     
-                    <button id="btn-login" onclick="openNav2()"><i class="fa fa-user"></i> <span>Acceso Estudiantes</span></button>
+                    <button id="btn-login"><i class="fa fa-user"></i> <span>Campus Virtual</span></button>
                   </div>
                 </div>
               </div>
@@ -178,9 +138,8 @@
                 <li><a href="#mu-latest-courses">Extensión (Diplomados)</a></li>                          
               </ul>
             </li> 
-            <li><a href="#mu-from-blog">Blog</a></li>          
+            <li><a href="#mu-from-blog">Blog/Investigación</a></li>          
             <li><a href="#mu-contact">Contacto</a></li>
-            <li><a href="#">Campus Virtual</a></li>
             
             <li><a href="#"> <span id="subscribe" onclick="openNav()" class="fa fa-plus-square"></span></a></li>              
           </ul>                     
@@ -506,175 +465,306 @@
   </section>
   <!-- End latest course section -->
 
-  <!-- Start from blog -->
-  <section id="mu-from-blog">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="mu-from-blog-area">
-            <!-- start title -->
-            <div class="mu-title">
-              <h2>Blog</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum vitae quae vero ut natus. Dolore!</p>
-            </div>
-            <!-- end title -->  
-            <!-- start from blog content   -->
-            <div class="mu-from-blog-content">
-              <div class="row">
-                <div class="col-md-4 col-sm-4">
-                  <article class="mu-blog-single-item">
-                    <figure class="mu-blog-single-img">
-                      <a href="#"><img src="images/blog/blog.jpg" alt="img"></a>
-                      <figcaption class="mu-blog-caption">
-                        <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                      </figcaption>                      
-                    </figure>
-                    <div class="mu-blog-meta">
-                      <a href="#">By Admin</a>
-                      <a href="#">02 June 2016</a>
-                      <span><i class="fa fa-comments-o"></i>87</span>
-                    </div>
-                    <div class="mu-blog-description">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Vitae, dolorum voluptate quis repudiandae eos molestiae dolores enim.</p>
-                      <a class="mu-read-more-btn" href="#">Leer Más</a>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <article class="mu-blog-single-item">
-                    <figure class="mu-blog-single-img">
-                      <a href="#"><img src="images/blog/blog.jpg" alt="img"></a>
-                      <figcaption class="mu-blog-caption">
-                        <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                      </figcaption>                      
-                    </figure>
-                    <div class="mu-blog-meta">
-                      <a href="#">By Admin</a>
-                      <a href="#">02 June 2016</a>
-                      <span><i class="fa fa-comments-o"></i>87</span>
-                    </div>
-                    <div class="mu-blog-description">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Vitae, dolorum voluptate quis repudiandae eos molestiae dolores enim.</p>
-                      <a class="mu-read-more-btn" href="#">Leer Más</a>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <article class="mu-blog-single-item">
-                    <figure class="mu-blog-single-img">
-                      <a href="#"><img src="images/blog/blog.jpg" alt="img"></a>
-                      <figcaption class="mu-blog-caption">
-                        <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                      </figcaption>                      
-                    </figure>
-                    <div class="mu-blog-meta">
-                      <a href="#">By Admin</a>
-                      <a href="#">02 June 2016</a>
-                      <span><i class="fa fa-comments-o"></i>87</span>
-                    </div>
-                    <div class="mu-blog-description">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Vitae, dolorum voluptate quis repudiandae eos molestiae dolores enim.</p>
-                      <a class="mu-read-more-btn" href="#">Leer Más</a>
-                    </div>
-                  </article>
-                </div>
-              </div>
-            </div>     
-            <!-- end from blog content   -->   
+   <!-- Start blog / investigacion  -->
+ <section id="mu-gallery">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+         <div class="mu-gallery-area">
+          <!-- start title -->
+          <div class="mu-title">
+            <h2>Blog / Investigación</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ut laboriosam corporis doloribus, officia, accusamus illo nam tempore totam alias!</p>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End from blog -->
+          <!-- end title -->
+          <!-- start gallery content -->
+          <div class="mu-gallery-content">
+            <!-- Start gallery menu -->
+            <div class="mu-gallery-top">              
+              <ul>
+                <li class="filter active" data-filter="all">Todos</li>
+                <li class="filter" data-filter=".tag-blog">Blog</li>
+                <li class="filter" data-filter=".tag-investigacion">Investigación</li>
+                <li class="filter" data-filter=".tag-blockchain">Blockchain</li>
+                <li class="filter" data-filter=".tag-educacion">Educación</li>
+                <li class="filter" data-filter=".tag-otros">Otros</li>
+              </ul>
+            </div>
+            <!-- End gallery menu -->
+            <div class="mu-gallery-body">
+              <ul id="mixit-container" class="row">
+                <!-- start single gallery image -->
+                <li class="col-md-4 col-sm-6 col-xs-12 mix tag-blog">
+                  <div class="mu-single-gallery">                  
+                    <div class="mu-single-gallery-item">
+                      <div class="mu-single-gallery-img">
+                        <a href="#"><img alt="img" src="images/gallery/small/1.jpg"></a>
+                      </div>
+                      <div class="mu-single-gallery-info">
+                        <div class="mu-single-gallery-info-inner">
+                          <h4>Image Title</h4>
+                          <p>Web Design</p>
+                          <a href="images/gallery/big/1.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
+                          <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
+                        </div>
+                      </div>                  
+                    </div>
+                    <div class="mu-blog-caption">
+                        <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
+                    </div>
+                    <div class="mu-blog-meta">
+                      <a href="#">By Admin</a>
+                      <a href="#">02 June 2016</a>
+                      <span><i class="fa fa-comments-o"></i>87</span>
+                    </div>
+                    <div class="mu-blog-description">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
 
-  <!-- Start Inv -->
-  <section id="mu-our-teacher">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="mu-our-teacher-area">
-            <!-- begain title -->
-            <div class="mu-title2">
-              <h2>Investigación</h2>
+                  </div>
+                </li>
+                <!-- start single gallery image -->
+               <li class="col-md-4 col-sm-6 col-xs-12 mix tag-investigacion">
+                  <div class="mu-single-gallery">                  
+                    <div class="mu-single-gallery-item">
+                      <div class="mu-single-gallery-img">
+                        <a href="#"><img alt="img" src="images/gallery/small/2.jpg"></a>
+                      </div>
+                       <div class="mu-single-gallery-info">
+                        <div class="mu-single-gallery-info-inner">
+                          <h4>Image Title</h4>
+                          <p>Animation</p>
+                          <a href="images/gallery/big/2.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
+                          <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
+                        </div>
+                      </div> 
+                    </div>
+                    <div class="mu-blog-caption">
+                        <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
+                    </div>
+                    <div class="mu-blog-meta">
+                      <a href="#">By Admin</a>
+                      <a href="#">02 June 2016</a>
+                      <span><i class="fa fa-comments-o"></i>87</span>
+                    </div>
+                    <div class="mu-blog-description">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                  </div>
+               </li>
+                <!-- start single gallery image -->
+                <li class="col-md-4 col-sm-6 col-xs-12 mix tag-blog">
+                  <div class="mu-single-gallery">                  
+                    <div class="mu-single-gallery-item">
+                      <div class="mu-single-gallery-img">
+                        <a href="#"><img alt="img" src="images/gallery/small/3.jpg"></a>
+                      </div>
+                      <div class="mu-single-gallery-info">
+                        <div class="mu-single-gallery-info-inner">
+                          <h4>Image Title</h4>
+                          <p>Math</p>
+                          <a href="images/gallery/big/3.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
+                          <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mu-blog-caption">
+                        <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
+                    </div>
+                    <div class="mu-blog-meta">
+                      <a href="#">By Admin</a>
+                      <a href="#">02 June 2016</a>
+                      <span><i class="fa fa-comments-o"></i>87</span>
+                    </div>
+                    <div class="mu-blog-description">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                  </div>
+                </li>
+                <!-- start single gallery image -->
+                <li class="col-md-4 col-sm-6 col-xs-12 mix tag-educacion">
+                  <div class="mu-single-gallery">                  
+                    <div class="mu-single-gallery-item">
+                      <div class="mu-single-gallery-img">
+                        <a href="#"><img alt="img" src="images/gallery/small/4.jpg"></a>
+                      </div>
+                       <div class="mu-single-gallery-info">
+                        <div class="mu-single-gallery-info-inner">
+                          <h4>Image Title</h4>
+                          <p>English</p>
+                          <a href="images/gallery/big/4.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
+                          <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mu-blog-caption">
+                        <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
+                    </div>
+                    <div class="mu-blog-meta">
+                      <a href="#">By Admin</a>
+                      <a href="#">02 June 2016</a>
+                      <span><i class="fa fa-comments-o"></i>87</span>
+                    </div>
+                    <div class="mu-blog-description">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                  </div>
+                </li>
+                <!-- start single gallery image -->
+                <li class="col-md-4 col-sm-6 col-xs-12 mix tag-otros">
+                  <div class="mu-single-gallery">                  
+                    <div class="mu-single-gallery-item">
+                      <div class="mu-single-gallery-img">
+                        <a href="#"><img alt="img" src="images/gallery/small/5.jpg"></a>
+                      </div>
+                      <div class="mu-single-gallery-info">
+                        <div class="mu-single-gallery-info-inner">
+                          <h4>Image Title</h4>
+                          <p>Graphics</p>
+                          <a href="images/gallery/big/5.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
+                          <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mu-blog-caption">
+                        <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
+                    </div>
+                    <div class="mu-blog-meta">
+                      <a href="#">By Admin</a>
+                      <a href="#">02 June 2016</a>
+                      <span><i class="fa fa-comments-o"></i>87</span>
+                    </div>
+                    <div class="mu-blog-description">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                  </div>
+                </li>
+                <!-- start single gallery image -->
+                <li class="col-md-4 col-sm-6 col-xs-12 mix tag-educacion">
+                  <div class="mu-single-gallery">                  
+                    <div class="mu-single-gallery-item">
+                      <div class="mu-single-gallery-img">
+                        <a href="#"><img alt="img" src="images/gallery/small/6.jpg"></a>
+                      </div>
+                       <div class="mu-single-gallery-info">
+                        <div class="mu-single-gallery-info-inner">
+                          <h4>Image Title</h4>
+                          <p>Health</p>
+                          <a href="images/gallery/big/6.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
+                          <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mu-blog-caption">
+                        <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
+                    </div>
+                    <div class="mu-blog-meta">
+                      <a href="#">By Admin</a>
+                      <a href="#">02 June 2016</a>
+                      <span><i class="fa fa-comments-o"></i>87</span>
+                    </div>
+                    <div class="mu-blog-description">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                  </div>
+                </li>
+                <!-- start single gallery image -->
+                <li class="col-md-4 col-sm-6 col-xs-12 mix tag-otros">
+                  <div class="mu-single-gallery">                  
+                    <div class="mu-single-gallery-item">
+                      <div class="mu-single-gallery-img">
+                        <a href="#"><img alt="img" src="images/gallery/small/7.jpg"></a>
+                      </div>
+                      <div class="mu-single-gallery-info">
+                        <div class="mu-single-gallery-info-inner">
+                          <h4>Image Title</h4>
+                          <p>Sports</p>
+                          <a href="images/gallery/big/7.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
+                          <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
+                        </div>
+                      </div>             
+                    </div>
+                    <div class="mu-blog-caption">
+                        <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
+                    </div>
+                    <div class="mu-blog-meta">
+                      <a href="#">By Admin</a>
+                      <a href="#">02 June 2016</a>
+                      <span><i class="fa fa-comments-o"></i>87</span>
+                    </div>
+                    <div class="mu-blog-description">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                  </div> 
+                </li>
+                 <!-- start single gallery image -->
+                <li class="col-md-4 col-sm-6 col-xs-12 mix tag-blockchain">
+                  <div class="mu-single-gallery">                  
+                    <div class="mu-single-gallery-item">
+                      <div class="mu-single-gallery-img">
+                        <a href="#"><img alt="img" src="images/gallery/small/8.jpg"></a>
+                      </div>
+                       <div class="mu-single-gallery-info">
+                        <div class="mu-single-gallery-info-inner">
+                          <h4>Image Title</h4>
+                          <p>Health</p>
+                          <a href="images/gallery/big/8.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
+                          <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mu-blog-caption">
+                        <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
+                    </div>
+                    <div class="mu-blog-meta">
+                      <a href="#">By Admin</a>
+                      <a href="#">02 June 2016</a>
+                      <span><i class="fa fa-comments-o"></i>87</span>
+                    </div>
+                    <div class="mu-blog-description">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                  </div>
+                </li>
+                <!-- start single gallery image -->
+                <li class="col-md-4 col-sm-6 col-xs-12 mix tag-blog">
+                  <div class="mu-single-gallery">                  
+                    <div class="mu-single-gallery-item">
+                      <div class="mu-single-gallery-img">
+                        <a href="#"><img alt="img" src="images/gallery/small/9.jpg"></a>
+                      </div>
+                      <div class="mu-single-gallery-info">
+                        <div class="mu-single-gallery-info-inner">
+                          <h4>Image Title</h4>
+                          <p>Sports</p>
+                          <a href="images/gallery/big/9.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
+                          <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
+                        </div>
+                      </div>             
+                    </div>
+                    <div class="mu-blog-caption">
+                        <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
+                    </div>
+                    <div class="mu-blog-meta">
+                      <a href="#">By Admin</a>
+                      <a href="#">02 June 2016</a>
+                      <span><i class="fa fa-comments-o"></i>87</span>
+                    </div>
+                    <div class="mu-blog-description">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                  </div> 
+                </li>
+              </ul>            
             </div>
-            <!-- end title -->
-            <!-- begain our teacher content -->
-            <div class="mu-our-teacher-content">
-              <div class="row">
-                <div class="col-lg-3 col-md-3  col-sm-6">
-                  <div class="mu-our-teacher-single">
-                    <figure class="mu-our-teacher-img">
-                      <img src="images/investigacion/inv1.jpeg" alt="teacher img">
-                      <div class="mu-our-teacher-social">
-                        <a href="#"><span class="fa fa-facebook"></span></a>
-                        <a href="#"><span class="fa fa-twitter"></span></a>
-                      </div>
-                    </figure>                    
-                    <div class="mu-ourteacher-single-content">
-                      <h4>Brian Dean</h4>
-                      <span>Math Teacher</span>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quod pariatur recusandae odio dignissimos. Eligendi.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                  <div class="mu-our-teacher-single">
-                    <figure class="mu-our-teacher-img">
-                      <img src="images/investigacion/inv2.jpeg" alt="teacher img">
-                      <div class="mu-our-teacher-social">
-                        <a href="#"><span class="fa fa-facebook"></span></a>
-                        <a href="#"><span class="fa fa-twitter"></span></a>
-                      </div>
-                    </figure>                 
-                    <div class="mu-ourteacher-single-content">
-                      <h4>James Hein</h4>
-                      <span>Physics Teacher</span>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quod pariatur recusandae odio dignissimos. Eligendi.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                  <div class="mu-our-teacher-single">                 
-                    <figure class="mu-our-teacher-img">
-                      <img src="images/investigacion/inv3.jpg" alt="teacher img">
-                      <div class="mu-our-teacher-social">
-                        <a href="#"><span class="fa fa-facebook"></span></a>
-                        <a href="#"><span class="fa fa-twitter"></span></a>
-                      </div>
-                    </figure> 
-                    <div class="mu-ourteacher-single-content">
-                      <h4>Rebeca Michel</h4>
-                      <span>English Teacher</span>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quod pariatur recusandae odio dignissimos. Eligendi.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                  <div class="mu-our-teacher-single">                   
-                    <figure class="mu-our-teacher-img">
-                      <img src="images/investigacion/inv4.jpg" alt="teacher img">
-                      <div class="mu-our-teacher-social">
-                        <a href="#"><span class="fa fa-facebook"></span></a>
-                        <a href="#"><span class="fa fa-twitter"></span></a>
-                      </div>
-                    </figure> 
-                    <div class="mu-ourteacher-single-content">
-                      <h4>John Doe</h4>
-                      <span>Biology Teacher</span>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quod pariatur recusandae odio dignissimos. Eligendi.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> 
-            <!-- End our teacher content -->           
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Inv -->
+          <!-- end gallery content -->
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!-- End blog / investigacion  -->
 
  <!-- Start testimonial -->
  <section id="mu-testimonial">
@@ -683,7 +773,7 @@
         <div class="col-md-12">
           <div class="mu-testimonial-area">
             <!-- start title -->
-            <div class="mu-title">
+            <div class="mu-title2">
                 <h2>Aliados</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum vitae quae vero ut natus. Dolore!</p>
               </div>
