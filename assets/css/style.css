@@ -476,6 +476,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
+  margin-top: -17px;
 }
 #mu-service .mu-service-area .mu-service-single {
   /*background-color: #318AC2;
@@ -2093,7 +2094,7 @@ img {
   background-color: #406FC1;
   display: inline;
   float: left;
-  padding: 50px 0;
+  /*padding: 50px 0;*/
   width: 100%;
 }
 #mu-footer .mu-footer-top .mu-footer-top-area {
@@ -2101,6 +2102,9 @@ img {
   float: left;
   width: 100%;
   text-align: center;
+  border-top: 1px solid #ffffff80;
+padding-top: 1em;
+padding-bottom: 3em;
 }
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget {
   display: inline;
@@ -2223,7 +2227,7 @@ img {
   }
 
   #mu-slider .mu-slider-single .mu-slider-img {
-    /*height: 400px;*/
+    height: 350px;
   }
 
   #mu-slider .mu-slider-single .mu-slider-content a {
@@ -2945,6 +2949,10 @@ img {
   background: #bb0000;
   color: white;
 } 
+.instagram{
+  background: linear-gradient(240deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d,#f56040,#f77737,#fcaf45,#ffdc80);
+
+}
 /*==================
  OTHER
 ====================*/
@@ -2977,4 +2985,9 @@ img {
 }
 #logo-footer{
   width: 250px;
+}
+.social-footer{
+  text-align: center;
+  margin-top: 4em;
+  font-size: 2em;
 }
