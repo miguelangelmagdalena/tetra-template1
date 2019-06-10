@@ -400,7 +400,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  height: 500px;
+  /*height: 500px;*/
 }
 #mu-slider .mu-slider-single .mu-slider-img:after {
   /*background-color: rgba(0, 0, 0, 0.5);*/
@@ -501,7 +501,7 @@ img {
 }
 #mu-service .mu-service-area .mu-service-single h3 {
   font-size: 25px;
-  text-align: left;
+  text-align: center;
 }
 #mu-service .mu-service-area .mu-service-single p {
   font-weight: lighter;
@@ -1049,21 +1049,21 @@ img {
  TESTIMONIAL SECTION
 ====================*/
 #mu-testimonial {
-  /*background-attachment: fixed;*/
-  /*background-image: url("../images/testimonial-bg.jpg");*/
+  background-attachment: fixed;
+  background-image: url("../../images/testimonial-bg.jpg");
   
   background-color: #406fc1;
-  /*background-position: center center;
-  background-size: cover;*/
+  background-position: center center;
+  background-size: cover;
   display: inline;
   float: left;
   padding: 100px 0;
   position: relative;
   width: 100%;
-  /*z-index: 10;*/
+  z-index: 10;
 }
 #mu-testimonial:after {
-  /*background-color: rgba(0, 0, 0, 0.8);*/
+  background-color: rgba(0, 0, 0, 0.8);
   content: '';
   position: absolute;
   left: 0;
@@ -1133,7 +1133,13 @@ img {
   /*border-radius: 50%;*/
   margin: -50px auto 5px;
   padding: 0;
-  width: 200px;
+  width: 500px;
+}
+#aliado1{
+  width: 600px !important;
+}
+#aliado2{
+  width: 200px !important;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-info {
   display: inline;
@@ -1142,7 +1148,7 @@ img {
   text-align: center;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-info h4 {
-  /*color: #fff;*/
+  color: #fff;
   font-size: 20px;
   margin-bottom: 0px;
 }
@@ -1151,7 +1157,7 @@ img {
   letter-spacing: 0.3px;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .slick-dots li {
-  background-color: #406fc1;
+  background-color: #fff;
   height: 8px;
   width: 20px;
 }
@@ -2094,6 +2100,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
+  text-align: center;
 }
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget {
   display: inline;
@@ -2103,7 +2110,7 @@ img {
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget h4 {
   color: #fff;
   margin-bottom: 15px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a {
   color: #f9f9f9;
@@ -2166,7 +2173,7 @@ img {
   letter-spacing: 0.5px;
 }
 #mu-footer .mu-footer-bottom {
-  background-color: #222;
+  background-color: #406FC1;
   display: inline;
   float: left;
   padding: 25px 0;
@@ -2216,7 +2223,7 @@ img {
   }
 
   #mu-slider .mu-slider-single .mu-slider-img {
-    height: 400px;
+    /*height: 400px;*/
   }
 
   #mu-slider .mu-slider-single .mu-slider-content a {
@@ -2461,7 +2468,7 @@ img {
   }
 
   #mu-slider .mu-slider-single .mu-slider-img {
-    height: 350px;
+    /*height: 350px;*/
   }
 
   #mu-slider .mu-slider-single .mu-slider-content h4 {
@@ -2667,7 +2674,7 @@ img {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 999;
   top: 0;
   right: 0;
   background-color: #ffffff;
@@ -2887,19 +2894,19 @@ img {
 ====================*
 
  /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
-.icon-bar {
+#icon-bar {
   position: fixed;
-  top: 30%;
+  top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   right: 0;
-  z-index: 999;
+  z-index: 998;
 
 }
 
 /* Style the icon bar links */
-.icon-bar a {
+#icon-bar a {
   display: block;
   text-align: center;
   padding: 20px;
@@ -2910,7 +2917,7 @@ img {
 }
 
 /* Style the social media icons with color, if you want */
-.icon-bar a:hover {
+#icon-bar a:hover {
   background-color: #CE9B30;
 }
 
@@ -2962,4 +2969,12 @@ img {
 }
 #subscribe{
   color: #406FC1; font-size:30px;cursor:pointer
+}
+.center{
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+#logo-footer{
+  width: 250px;
 }
